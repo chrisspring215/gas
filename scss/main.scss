@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+$palletSize: 400px;
+
+.pallet {
+    margin-left: 25%;
+    width: $palletSize;
+    height: $palletSize;
+    border: 0px solid #333;
+    
+    background: #999;
+    margin-bottom: 1em;
+}
+
+.cell {
+    width: $palletSize / 4;
+    height: $palletSize / 4;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-radius: $palletSize;
+    float: left;
+    text-align: center;
+}
+
+.p2 {
+    transform: rotateX(66deg) rotateZ(45deg);
+}
+
+span {
+    margin: 0;
+    padding-top: 1em;
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    //transform: rotateZ(-45deg) rotateX(-30deg);
+}
+
+.cell.small {
+    width: $palletSize / 6;
+    height: $palletSize / 6;
+    margin-top: $palletSize / 24;
+    margin-bottom: $palletSize / 24;
+}
+
+.a1 {
+    background: red;
+}
+
+.a2 {
+    background: blue;
+}
+.a3 {
+    background: green;
+}
+.a4 {
+    background: pink;
+}
+.b1 {
+    background: aqua;
+}
+.b2 {
+    background: brown;
+}
+.b3 {
+    background: gold;
+}
+.b4 {
+    background: purple;
+}
+.c1 {
+    background: plum;
+}
+.c2 {
+    background: rebeccapurple;
+}
+.c3 {
+    background: teal;
+}
+.c4 {
+    background: yellowgreen;
+}
+.c5 {
+    background: rgb(251, 4, 214);
+}
+.c6 {
+    background: #16b6d5;
+}
+
+.d1 {
+    background: indianred;
+}
+.d2 {
+    background: olive;
+}
+.d3 {
+    background: peru;
+}
+.d4 {
+    background: salmon;
+}
